@@ -1,0 +1,14 @@
+Starting Powerwall App
+Sleep done...
+Making Request to TESLA Battery:
+{'generator': {'instant_apparent_power': 0, 'i_a_current': 0, 'instant_average_voltage': 0, 'energy_imported': 0, 'i_c_current': 0, 'frequency': 0, 'energy_exported': 0, 'i_b_current': 0, 'instant_reactive_power': 0, 'instant_total_current': 0, 'instant_power': 0, 'last_communication_time': '0001-01-01T00:00:00Z'}, 'frequency': {'instant_apparent_power': 0, 'i_a_current': 0, 'instant_average_voltage': 0, 'energy_imported': 0, 'i_c_current': 0, 'frequency': 0, 'energy_exported': 0, 'i_b_current': 0, 'instant_reactive_power': 0, 'instant_total_current': 0, 'instant_power': 0, 'last_communication_time': '0001-01-01T00:00:00Z'}, 'load': {'instant_apparent_power': 2868.5508187853866, 'i_a_current': 0, 'instant_average_voltage': 243.62000274658203, 'energy_imported': 10313587.029999997, 'i_c_current': 0, 'timeout': 1500000000, 'frequency': 60, 'energy_exported': 0, 'i_b_current': 0, 'instant_reactive_power': -35.5562180139424, 'instant_total_current': 11.773788749007501, 'instant_power': 2868.330447370884, 'last_communication_time': '2018-12-04T21:22:13.087460348-05:00'}, 'busway': {'instant_apparent_power': 0, 'i_a_current': 0, 'instant_average_voltage': 0, 'energy_imported': 0, 'i_c_current': 0, 'frequency': 0, 'energy_exported': 0, 'i_b_current': 0, 'instant_reactive_power': 0, 'instant_total_current': 0, 'instant_power': 0, 'last_communication_time': '0001-01-01T00:00:00Z'}, 'solar': {'instant_apparent_power': 528.1520430938566, 'i_a_current': 0, 'instant_average_voltage': 243.76000213623047, 'energy_imported': 16.32194444593562, 'i_c_current': 0, 'timeout': 1500000000, 'frequency': 60, 'energy_exported': 9015840.606111111, 'i_b_current': 0, 'instant_reactive_power': 528.0599975585938, 'instant_total_current': 0, 'instant_power': 9.860000133514404, 'last_communication_time': '2018-12-04T21:22:13.087641347-05:00'}, 'site': {'instant_apparent_power': 3018.127677804776, 'i_a_current': 0, 'instant_average_voltage': 243.62000274658203, 'energy_imported': 6172299.55777844, 'i_c_current': 0, 'timeout': 1500000000, 'frequency': 60, 'energy_exported': 4791076.811945107, 'i_b_current': 0, 'instant_reactive_power': -968.010009765625, 'instant_total_current': 0, 'instant_power': 2858.6799926757812, 'last_communication_time': '2018-12-04T21:22:13.087460348-05:00'}, 'battery': {'instant_apparent_power': 410.12193308819764, 'i_a_current': 0, 'instant_average_voltage': 243.60000000000002, 'energy_imported': 86450, 'i_c_current': 0, 'timeout': 1500000000, 'frequency': 60.016999999999996, 'energy_exported': 2990, 'i_b_current': 0, 'instant_reactive_power': 410.00000000000006, 'instant_total_current': -0.30000000000000004, 'instant_power': -10, 'last_communication_time': '2018-12-04T21:22:13.090305993-05:00'}}
+----
+Site 2.858679992675781
+Battery -0.01
+Load 2.868330447370884
+Solar 0.009860000133514405
+Battery PCT 100
+Battery CPT 13.5
+(0, 6)
+MQTT msgs sent
+Sleeping

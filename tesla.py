@@ -69,5 +69,8 @@ client.connect("pizero1", 1883, 30)
 client.loop_start()
 
 while True:
-    runCommands();
-    time.sleep(2*60)
+   try: 
+    runCommands()
+   except: 
+    print ("Unexpected error:"+ sys.exc_info()[0])
+   time.sleep(10*60)
