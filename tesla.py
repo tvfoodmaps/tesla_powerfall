@@ -20,7 +20,7 @@ def runCommands():
         print("Making Request to TESLA Battery:")
         sys.stdout.flush()
 
-        r = requests.get('http://192.168.91.1/api/meters/aggregates',verify=False)
+        r = requests.get('https://192.168.91.1/api/meters/aggregates',verify=False)
         d = r.json()
 
         print(d)
